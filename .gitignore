@@ -1,0 +1,26 @@
+# ignore copyrighted files
+extras/
+org/
+patches/
+systemroms/
+
+# ignore configuration files
+omega_rom_selections.json
+
+# ignore build artifacts
+omega_output.bin
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+*.swp
+*.bak
+*.tmp
+*.DS_Store
